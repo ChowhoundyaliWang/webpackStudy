@@ -1,0 +1,9 @@
+.img{
+    width: 400px;
+    height: 220px;
+    background: url('../images/001.png');  // 默认情况下，webpack无法处理css文件中的url地址，不管是 图片 还是 字体库，
+    background-size: cover;
+}
+ul{
+    border: 4px solid hsla(31, 71%, 51%, 0.918);
+}
